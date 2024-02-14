@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@components/*": [
+        "components/*"
+      ],
+      "@userActions": [
+        "store/actions/userActions.js"
+      ],
+      "@roleActions": [
+        "store/actions/roleActions.js"
+      ],
+      "@store/*": [
+        "store/*"
+      ],
+      "@Api/*": [
+        "api/*"
+      ],
+      "@Utilities/*": [
+        "utilities/*"
+      ],
+      "@images/*": [
+        "public/img/*"
+      ]
+    }
+  }
+}
